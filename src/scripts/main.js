@@ -1,18 +1,18 @@
 function rollDice() {
-  var randomNumber1 = Math.floor(Math.random() * 6) + 1;
-  var randomDiceImage = "dice" + randomNumber1 + ".png";
+  let randomNumber1 = Math.floor(Math.random() * 6) + 1;
+  let randomDiceImage = "dice" + randomNumber1 + ".png";
 
-  var randomImageSource = "assets/images/dice/" + randomDiceImage;
-  var image1 = document.querySelectorAll("img")[0];
+  let randomImageSource = "assets/images/dice/" + randomDiceImage;
+  let image1 = document.querySelectorAll("img")[0];
 
   image1.setAttribute("src", randomImageSource);
 
   //second dice
-  var randomNumber2 = Math.floor(Math.random() * 6) + 1;
-  var randomDiceImage = "dice" + randomNumber2 + ".png";
-  var randomImageSource2 = "assets/images/dice/" + randomDiceImage;
+  let randomNumber2 = Math.floor(Math.random() * 6) + 1;
+  let randomDiceImage = "dice" + randomNumber2 + ".png";
+  let randomImageSource2 = "assets/images/dice/" + randomDiceImage;
 
-  var image2 = document.querySelectorAll("img")[1];
+  let image2 = document.querySelectorAll("img")[1];
   image2.setAttribute("src", randomImageSource2);
 
   //If player 1 wins
