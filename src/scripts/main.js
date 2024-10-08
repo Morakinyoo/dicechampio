@@ -26,8 +26,8 @@ function rollDice() {
 }
 document.querySelector("button").addEventListener("click", rollDice);
 
-let player1Name = prompt("what is your name?");
-let player2Name = prompt("what is your name?");
+let player1Name = prompt("Player 1, what is your name?");
+let player2Name = prompt("Player 2, what is your name?");
 
 let playerOneName = player1Name;
 let playerTwoName = player2Name;
